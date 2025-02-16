@@ -86,6 +86,7 @@ const config: Config = {
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
+          //TODO also add discord and other socials
         },
       ],
     },
