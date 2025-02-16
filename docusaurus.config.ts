@@ -86,7 +86,7 @@ const config: Config = {
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
-          //TODO also add discord and other socials
+          //TODO also add discord and other socials here
         },
       ],
     },
@@ -97,13 +97,13 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Get Started',
+              to: '/docs/intro', //TODO right ref
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Community', //TODO also change socials here
           items: [
             {
               label: 'Stack Overflow',
@@ -128,12 +128,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/thePolocloud/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} thePolocloud`,
     },
     prism: {
       theme: prismThemes.github,
