@@ -26,6 +26,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout title="Home" description={description}>
       <HomepageHeader />
+      {/* TODO Search bar */}
       <main>
         <Projects />
       </main>
