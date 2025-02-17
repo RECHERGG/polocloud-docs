@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -80,7 +80,7 @@ const config: Config = {
           position: 'left',
           label: 'Documentation',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/thePolocloud/',
           position: 'right',
@@ -103,37 +103,33 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community', //TODO also change socials here
+          title: 'More',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
+              label: 'Main Site',
+              href: 'https://polocloud.de/',
+            }
           ],
         },
         {
-          title: 'More',
+          title: 'Socials', //TODO more socials?!
           items: [
             {
               label: 'Blog',
               to: '/blog',
             },
             {
+              label: 'Discord',
+              href: 'https://discord.gg/WGzUcuJax7',
+            },
+            {
               label: 'GitHub',
               href: 'https://github.com/thePolocloud/',
-            },
+            }
           ],
-        },
+        }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} thePolocloud`,
+      copyright: `Copyright © ${new Date().getFullYear()} thePolocloud and Contributors.<br>This is not an official website of Microsoft or Minecraft Studios and is not associated with them.`,
     },
 
     prism: {
